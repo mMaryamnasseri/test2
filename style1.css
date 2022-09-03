@@ -1,0 +1,94 @@
+h1{
+	color: black;
+	text-align: center;
+}
+#perimeri{
+	/*background-color:green;*/
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 500px;
+}
+.head{
+	position: relative;
+	width:170px;
+	height:120px; 
+	border-radius: 90px 90px 0px 0px;
+	background-color: blue;
+	margin:auto;
+}
+.head:hover{
+	width: 270px;
+	border-radius: 120px 120px 0px 0px;
+	transition-timing-function: ease-in-out;
+}
+.eye-right,.eye-left{
+	position:absolute;
+	background-color:white;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.eye-right{
+	margin-left:115px;
+	margin-bottom: 90px;
+	margin-top: 90px;
+}
+.eye-left{
+	margin-left:40px;
+	margin-bottom: 90px;
+	margin-top: 90px;
+}
+.body-fit{
+	position:relative;
+	height:197px;
+	/*background-color: red; */
+}
+#body{
+	position: absolute;
+	width: 170px;
+	height: 190px;
+	margin-left: 65px;
+	margin-top: 7px;
+	background-color: blue;
+	border-radius: 0px 0px 50px 50px;
+}
+#hand-right,#hand-left{
+	position:absolute;
+	width: 30px;
+	height: 120px;
+	background-color: blue;
+	border-radius: 50px 50px 50px 50px;
+	margin-top:7px;
+}
+#body,#hand-right,#hand-left{
+	display: inline-block;
+}
+#hand-right{
+	margin-left: 240px;
+}
+#hand-left{
+	margin-left:30px; 
+}
+#hand-left:hover{
+	transform:rotate(15deg);
+}
+#right-leg,#left-leg{
+	position: absolute;
+	border-radius: 0px 0px 50px 50px;
+	width:30px;
+	height: 80px;
+	margin-bottom: 100px;
+}
+#right-leg{
+	background-color:blue; 
+	margin-left:160px;
+}
+#left-leg{
+	background-color:blue;
+	margin-left:110px;
+}
+#left-leg:hover{
+	transform:rotate(15deg);
+}
